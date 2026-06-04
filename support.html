@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Support für Anavara Abyss — Tauchlogbuch.">
+  <meta name="theme-color" content="#000000">
+  <title>Support — Anavara Abyss</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+  <div class="ambient-curve" aria-hidden="true">
+    <svg viewBox="0 0 720 280" preserveAspectRatio="none">
+      <path d="M0,40 C200,260 520,-40 720,120 L720,280 L0,280 Z"
+            fill="rgba(94,227,201,0.18)"/>
+      <path d="M0,40 C200,260 520,-40 720,120"
+            fill="none" stroke="#5EE3C9" stroke-width="1.4"/>
+    </svg>
+  </div>
+
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      <svg class="brand-mark" viewBox="0 0 22 22" fill="none" aria-hidden="true">
+        <path d="M11 2L20 19H2L11 2Z" stroke="#5EE3C9" stroke-width="1.4" stroke-linejoin="round"/>
+        <path d="M11 8L15.5 17H6.5L11 8Z" stroke="#5EE3C9" stroke-width="1.2" stroke-linejoin="round" opacity="0.55"/>
+      </svg>
+      Anavara Abyss
+    </a>
+    <div class="lang-toggle">
+      <a href="support.html" class="active">DE</a>
+      <a href="support.en.html">EN</a>
+    </div>
+  </header>
+
+  <main>
+    <p class="eyebrow">Hilfe</p>
+    <h1>Support</h1>
+    <p class="subtitle">
+      Anavara Abyss ist eine kleine, von einer Person gepflegte App. Falls etwas nicht
+      funktioniert, eine Frage offen ist oder du eine Idee hast — der einfachste Weg ist
+      ein GitHub-Issue.
+    </p>
+
+    <p style="margin: 32px 0;">
+      <a class="cta" href="https://github.com/blau-ton/abyss/issues/new"
+         target="_blank" rel="noopener">Neues Issue öffnen →</a>
+    </p>
+
+    <h2>Was hilft uns weiter?</h2>
+    <ul>
+      <li>Was du gemacht hast</li>
+      <li>Was passiert ist</li>
+      <li>Was du erwartet hättest</li>
+      <li>Welches iPhone-Modell und welche iOS-Version du nutzt</li>
+    </ul>
+    <p>Screenshots sind Gold wert.</p>
+
+    <h2>Häufige Fragen</h2>
+
+    <h3>Wo werden meine Tauchgänge gespeichert?</h3>
+    <p>Lokal auf deinem iPhone. Details: <a href="privacy.html">Datenschutzerklärung</a>.</p>
+
+    <h3>Kann ich meine Daten exportieren?</h3>
+    <p>Ja — über den Tab <strong>Export</strong> als CSV oder UDDF. Du behältst deine Daten in
+    einem offenen Format, das auch andere Tauchlog-Apps verstehen.</p>
+
+    <h3>Kann ich Daten aus einer anderen Tauchlog-App importieren?</h3>
+    <p>Ja — die App liest <strong>CSV</strong>, <strong>UDDF</strong>,
+    <strong>Suunto DM5 XML</strong> und <strong>Garmin FIT</strong>. Tab Export → Import
+    auswählen → Datei wählen.</p>
+
+    <h3>Warum sehe ich kein Wetter?</h3>
+    <p>Die Wetter-Anzeige nutzt Apple WeatherKit und benötigt:</p>
+    <ul>
+      <li>Eine aktive Internetverbindung</li>
+      <li>Standortdienste für die App in iOS aktiviert</li>
+      <li>Mindestens einen erfassten Tauchgang mit Koordinaten</li>
+    </ul>
+    <p>Wenn alles davon stimmt und trotzdem kein Wert kommt: kurz Geduld, Apple cached die
+    Daten je Spot 10 Minuten lang nach der ersten Abfrage.</p>
+
+    <h3>Wie ändere ich die App-Sprache?</h3>
+    <p>Über die <em>iPhone-Einstellungen → Anavara Abyss → Sprache</em>. Aktuell unterstützt:
+    Deutsch, Englisch.</p>
+
+    <h3>Gibt es einen iCloud-Sync?</h3>
+    <p>Aktuell nicht. Deine Daten bleiben lokal. Falls Apple's globales iCloud-Backup für dein
+    Gerät aktiv ist, sind sie automatisch Teil dieses Backups (von uns nicht einsehbar).</p>
+
+    <h3>Wird die App weiterentwickelt?</h3>
+    <p>Ja, ich pflege sie. Roadmap und Bugs werden im
+    <a href="https://github.com/blau-ton/abyss" target="_blank" rel="noopener">GitHub-Repository</a>
+    getrackt.</p>
+
+    <h2>Kontakt für Datenschutzanfragen</h2>
+    <p>Auskunftsersuchen nach DSGVO Art. 15, Löschungs- oder Berichtigungsanträge: bitte über
+    <a href="https://github.com/blau-ton/abyss/issues/new" target="_blank" rel="noopener">
+    ein neues Issue</a> mit Label <code>privacy</code> oder über den im App Store hinterlegten
+    Entwickler-Kontakt.</p>
+    <p>Da keine Daten erhoben werden, ist die Antwort in der Regel sehr kurz. 🙂</p>
+  </main>
+
+  <footer class="site-footer">
+    <div>© 2026 Anavara</div>
+    <div class="links">
+      <a href="index.html">Home</a>
+      <a href="privacy.html">Datenschutz</a>
+      <a href="https://github.com/blau-ton/abyss" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </footer>
+
+</body>
+</html>

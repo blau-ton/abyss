@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Privacy policy for Anavara Abyss — dive logbook.">
+  <meta name="theme-color" content="#000000">
+  <title>Privacy — Anavara Abyss</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+  <div class="ambient-curve" aria-hidden="true">
+    <svg viewBox="0 0 720 280" preserveAspectRatio="none">
+      <path d="M0,40 C200,260 520,-40 720,120 L720,280 L0,280 Z"
+            fill="rgba(94,227,201,0.18)"/>
+      <path d="M0,40 C200,260 520,-40 720,120"
+            fill="none" stroke="#5EE3C9" stroke-width="1.4"/>
+    </svg>
+  </div>
+
+  <header class="site-header">
+    <a class="brand" href="index.en.html">
+      <svg class="brand-mark" viewBox="0 0 22 22" fill="none" aria-hidden="true">
+        <path d="M11 2L20 19H2L11 2Z" stroke="#5EE3C9" stroke-width="1.4" stroke-linejoin="round"/>
+        <path d="M11 8L15.5 17H6.5L11 8Z" stroke="#5EE3C9" stroke-width="1.2" stroke-linejoin="round" opacity="0.55"/>
+      </svg>
+      Anavara Abyss
+    </a>
+    <div class="lang-toggle">
+      <a href="privacy.html">DE</a>
+      <a href="privacy.en.html" class="active">EN</a>
+    </div>
+  </header>
+
+  <main>
+    <p class="meta">Last updated: June 2026 · Controller: Anavara</p>
+    <h1>Privacy Policy</h1>
+    <p class="subtitle">
+      What Anavara Abyss knows about you — and what it doesn't.
+    </p>
+
+    <div class="callout">
+      <p><strong>TL;DR:</strong> Abyss collects no data about you. Everything you log stays
+      on your iPhone. No servers, no account, no tracking.</p>
+    </div>
+
+    <h2>What data does the app collect?</h2>
+    <p><strong>None.</strong> The app has no backend, no server, no account, and no analytics
+    system. We do not collect, process, or share any personal data.</p>
+
+    <h2>Where is my dive data stored?</h2>
+    <p>Exclusively <strong>on your iPhone</strong>, in the app's private container
+    (SwiftData / Core Data). You can export it any time (CSV / UDDF) or wipe it completely by
+    deleting the app.</p>
+
+    <p>There is <strong>no</strong> automatic iCloud sync. If you have iCloud Backup enabled for
+    your iPhone, an encrypted backup of the app's data may end up in your iCloud account — that
+    is Apple's iCloud Backup mechanism, not something we operate or can see into.</p>
+
+    <h2>Which external services does the app use?</h2>
+    <p>Exactly one: <strong>Apple WeatherKit</strong>.</p>
+    <ul>
+      <li><strong>Purpose:</strong> showing the current air temperature at your most recent dive spot</li>
+      <li><strong>Data sent:</strong> the coordinates of your most recent dive (latitude / longitude)</li>
+      <li><strong>Provider:</strong> Apple Inc.</li>
+      <li><strong>Privacy:</strong> WeatherKit is run by Apple as part of iOS. Requests are
+      processed anonymously by Apple. Details:
+      <a href="https://www.apple.com/legal/privacy/data/en/weather/" target="_blank" rel="noopener">
+      apple.com/legal/privacy/data/en/weather/</a></li>
+    </ul>
+    <p>If you don't want this, you can revoke Location access in iOS under
+    <em>Settings → Privacy &amp; Security</em> — the weather field then simply falls back to
+    "–" while the rest of the app keeps working.</p>
+
+    <h2>Which iOS permissions does the app request?</h2>
+    <ul>
+      <li><strong>Location</strong> <em>("While Using")</em> — only so you can see your current
+      position on the Spots map and find nearby spots. <strong>Never</strong> transmitted.</li>
+      <li><strong>Camera</strong> — exclusively for scanning a QR code when importing a shared
+      dive from a buddy. No photo leaves your device.</li>
+      <li><strong>Photo Library (add only)</strong> — if you want to save exported images
+      (e.g. your QR code) to your photo library.</li>
+    </ul>
+    <p>You can revoke any permission any time under
+    <em>Settings → Anavara Abyss</em>.</p>
+
+    <h2>Tracking, advertising, analytics</h2>
+    <p><strong>None.</strong> The app contains no tracking SDKs, no ad IDs, no Crashlytics, no
+    Firebase, no Mixpanel, nothing of the kind.</p>
+
+    <h2>Cookies</h2>
+    <p>The app is not a web service and does not set cookies.</p>
+
+    <h2>Contact</h2>
+    <p>Questions, concerns, or subject access requests under GDPR Art. 15:
+    <a href="support.en.html">visit the support page</a> or
+    <a href="https://github.com/blau-ton/abyss/issues/new" target="_blank" rel="noopener">
+    open a GitHub issue with the <code>privacy</code> label</a>.</p>
+
+    <h2>Changes</h2>
+    <p>If this policy changes, the new version will be published on this page. The date at the
+    top reflects the current revision.</p>
+  </main>
+
+  <footer class="site-footer">
+    <div>© 2026 Anavara</div>
+    <div class="links">
+      <a href="index.en.html">Home</a>
+      <a href="support.en.html">Support</a>
+      <a href="https://github.com/blau-ton/abyss" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </footer>
+
+</body>
+</html>

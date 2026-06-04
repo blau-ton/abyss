@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Support for Anavara Abyss — dive logbook.">
+  <meta name="theme-color" content="#000000">
+  <title>Support — Anavara Abyss</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+  <div class="ambient-curve" aria-hidden="true">
+    <svg viewBox="0 0 720 280" preserveAspectRatio="none">
+      <path d="M0,40 C200,260 520,-40 720,120 L720,280 L0,280 Z"
+            fill="rgba(94,227,201,0.18)"/>
+      <path d="M0,40 C200,260 520,-40 720,120"
+            fill="none" stroke="#5EE3C9" stroke-width="1.4"/>
+    </svg>
+  </div>
+
+  <header class="site-header">
+    <a class="brand" href="index.en.html">
+      <svg class="brand-mark" viewBox="0 0 22 22" fill="none" aria-hidden="true">
+        <path d="M11 2L20 19H2L11 2Z" stroke="#5EE3C9" stroke-width="1.4" stroke-linejoin="round"/>
+        <path d="M11 8L15.5 17H6.5L11 8Z" stroke="#5EE3C9" stroke-width="1.2" stroke-linejoin="round" opacity="0.55"/>
+      </svg>
+      Anavara Abyss
+    </a>
+    <div class="lang-toggle">
+      <a href="support.html">DE</a>
+      <a href="support.en.html" class="active">EN</a>
+    </div>
+  </header>
+
+  <main>
+    <p class="eyebrow">Help</p>
+    <h1>Support</h1>
+    <p class="subtitle">
+      Anavara Abyss is a small, one-person app. If something doesn't work, you have a
+      question, or an idea — the easiest path is a GitHub issue.
+    </p>
+
+    <p style="margin: 32px 0;">
+      <a class="cta" href="https://github.com/blau-ton/abyss/issues/new"
+         target="_blank" rel="noopener">Open a new issue →</a>
+    </p>
+
+    <h2>What helps us help you?</h2>
+    <ul>
+      <li>What you did</li>
+      <li>What happened</li>
+      <li>What you expected</li>
+      <li>Your iPhone model and iOS version</li>
+    </ul>
+    <p>Screenshots are gold.</p>
+
+    <h2>FAQ</h2>
+
+    <h3>Where are my dives stored?</h3>
+    <p>On your iPhone, locally. Details: <a href="privacy.en.html">privacy policy</a>.</p>
+
+    <h3>Can I export my data?</h3>
+    <p>Yes — via the <strong>Export</strong> tab as CSV or UDDF. You keep your data in an
+    open format readable by other dive log apps.</p>
+
+    <h3>Can I import from another dive log app?</h3>
+    <p>Yes — the app reads <strong>CSV</strong>, <strong>UDDF</strong>,
+    <strong>Suunto DM5 XML</strong> and <strong>Garmin FIT</strong>. Export tab → Import →
+    pick file.</p>
+
+    <h3>Why don't I see weather data?</h3>
+    <p>The weather field uses Apple WeatherKit and requires:</p>
+    <ul>
+      <li>An active internet connection</li>
+      <li>Location services enabled for the app in iOS</li>
+      <li>At least one logged dive with coordinates</li>
+    </ul>
+    <p>If all of that is true and you still see nothing: be patient — Apple caches values per
+    spot for 10 minutes after the first request.</p>
+
+    <h3>How do I change the app language?</h3>
+    <p>Via <em>iPhone Settings → Anavara Abyss → Language</em>. Currently supported:
+    German, English.</p>
+
+    <h3>Is there iCloud sync?</h3>
+    <p>Not at the moment. Your data stays local. If Apple's iCloud Backup is enabled for your
+    device, it'll be part of that backup automatically (encrypted and not visible to us).</p>
+
+    <h3>Will the app keep being developed?</h3>
+    <p>Yes. Roadmap and bugs are tracked in the
+    <a href="https://github.com/blau-ton/abyss" target="_blank" rel="noopener">GitHub repository</a>.</p>
+
+    <h2>Privacy contact</h2>
+    <p>Subject access requests under GDPR Art. 15, deletion or rectification requests: please
+    <a href="https://github.com/blau-ton/abyss/issues/new" target="_blank" rel="noopener">
+    open a new issue</a> with the <code>privacy</code> label, or use the developer contact
+    listed on the App Store.</p>
+    <p>Since no data is collected, the answer is usually very short. 🙂</p>
+  </main>
+
+  <footer class="site-footer">
+    <div>© 2026 Anavara</div>
+    <div class="links">
+      <a href="index.en.html">Home</a>
+      <a href="privacy.en.html">Privacy</a>
+      <a href="https://github.com/blau-ton/abyss" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </footer>
+
+</body>
+</html>
