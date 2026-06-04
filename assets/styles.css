@@ -42,7 +42,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  height: 280px;
+  height: 440px;
   pointer-events: none;
   z-index: 0;
   overflow: hidden;
@@ -82,7 +82,7 @@ header.site-header {
 }
 
 .brand-mark {
-  height: 128px;
+  height: 256px;
   width: auto;
   display: inline-block;
 }
@@ -125,7 +125,7 @@ main {
   max-width: var(--max-width);
   width: 100%;
   margin: 0 auto;
-  padding: 56px 24px 80px;
+  padding: 120px 24px 80px;
 }
 
 h1 {
