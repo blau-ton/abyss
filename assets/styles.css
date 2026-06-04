@@ -36,25 +36,8 @@ body {
   flex-direction: column;
 }
 
-/* Ambient mint wave at top — matches the app's hero language */
-.ambient-curve {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 440px;
-  pointer-events: none;
-  z-index: 0;
-  overflow: hidden;
-  mask-image: linear-gradient(to bottom,
-    rgba(0,0,0,1) 0%,
-    rgba(0,0,0,0.5) 60%,
-    rgba(0,0,0,0) 100%);
-  -webkit-mask-image: linear-gradient(to bottom,
-    rgba(0,0,0,1) 0%,
-    rgba(0,0,0,0.5) 60%,
-    rgba(0,0,0,0) 100%);
-}
+/* Ambient mint wave at top — hidden per request */
+.ambient-curve { display: none; }
 .ambient-curve svg { width: 100%; height: 100%; display: block; }
 
 /* Header */
