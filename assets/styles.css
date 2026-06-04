@@ -82,9 +82,15 @@ header.site-header {
 }
 
 .brand-mark {
-  width: 22px;
-  height: 22px;
+  height: 30px;
+  width: auto;
   display: inline-block;
+}
+
+/* footer links to legal pages */
+footer.site-footer .legal {
+  display: flex;
+  gap: 18px;
 }
 
 .lang-toggle {
